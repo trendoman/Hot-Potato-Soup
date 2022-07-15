@@ -1,0 +1,6 @@
+<cms:ignore># Alert. Usage: <cms:call 'embed' 'alert/alert.html' type='' text='' /></cms:ignore>
+<div class="alert alert-<cms:get 'k_named_args.type' default='success'/> shadow mb-3 alert-dismissible fade show">
+   <cms:trim k_named_args.text />
+
+   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
