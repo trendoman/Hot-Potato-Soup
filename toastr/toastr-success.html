@@ -1,0 +1,16 @@
+<cms:call 'embed-once' 'assets.inc' relative_to=k_named_args.snippet  />
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+   // Handle toastr when the DOM is fully loaded
+   toastr.success("<cms:get 'k_named_args.content' default='Notification' />", "<cms:get 'k_named_args.header' default='Success' />", {
+       "positionClass": "toast-top-right",
+       "timeOut": "7000",
+       "icon": '<cms:show_icon "<cms:get 'k_named_args.icon' default='warning' />" />',
+       "progressBar": "true",
+       "preventDuplicates": "true",
+       "onHidden": function() {
+           //console.log('%cToastr closed' , 'display:block; border: thin double #32a1ce; padding:2px; font-style:italic');
+       }
+   });
+  });
+</script>
