@@ -1,4 +1,4 @@
-# Hot Potato Soup
+# :fire: Hot Potato Soup :fire:
 
 Got a potato code? Make it hot by adding to The Soup.
 
