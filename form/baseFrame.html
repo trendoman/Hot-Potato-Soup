@@ -8,7 +8,7 @@
             const newElement = window.parent.document.createElement("p");
             newElement.innerHTML += `<h2>Submitted <cms:date format='H:i:s'/></h2>`;
             newElement.innerHTML += `<cms:dump />`;
-            window.parent.window.k_form.appendChild(newElement);
+            window.parent.window.k_form.insertAdjacentElement('afterend', newElement);
          </script>
       </cms:abort>
    </cms:if>
