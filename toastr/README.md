@@ -32,7 +32,12 @@ Param **type** takes:  ***info, warning, success, error***
 
 ### icon
 
-Icons used from CouchCMS icon set at `couch/theme/_system/assets/open-iconic.svg`.
+Icons used from stock CouchCMS icon set at `couch/theme/_system/assets/open-iconic.svg`.
+
+
+<details><summary>Preview Icons</summary>
+
+![](img/open-iconic.png)
 
 Repository with icons:
 
@@ -41,6 +46,7 @@ git clone https://github.com/iconic/open-iconic \#OpenIconic
 ```
 
 Directory `#OpenIconic/svg` has a list of names to choose from. Previews in `/png` folder.
+</details>
 
 
 ## support
